@@ -12,22 +12,22 @@ export default function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-2">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item1</a>
+                                <a class="nav-link" href="#">item 1</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item2</a>
+                                <a class="nav-link" href="#">item 2</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item3</a>
+                                <a class="nav-link" href="#">item 3</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item4</a>
+                                <a class="nav-link" href="#">item 4</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item5</a>
+                                <a class="nav-link" href="#">item 5</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">item6</a>
+                                <a class="nav-link" href="#">item 6</a>
                             </li>
                         </ul>
 

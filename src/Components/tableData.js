@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast, Bounce } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 export default function TableData() {
     const [data, setData] = useState([]);
@@ -29,10 +32,16 @@ export default function TableData() {
         val.orderDescription.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
+    const deleteSuccess = () => toast.success('Data Delete Successfully !', {
+        position: toast.POSITION.BOTTOM_RIGHT
+    });
+
     const handleDelete = (index) => {
+        alert('Are You sure you want to delete data?');
         let temp = [...data];
         temp.splice(index, 1);
-        setData(temp)
+        setData(temp);
+        deleteSuccess();
 
     }
     return (
